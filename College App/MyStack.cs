@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace College_App
 {
-    //Awet Fessha
-    //Assessment 3 task 2
+    //Implemntaing the interface IStackADT
+    //Awet Fessha 24/10/18
+    
 
     class MyStack : IStackADT
     {
+        public MyStack()
+        {
+            IntArrayList list = new IntArrayList();
+        }
         //adds value to list appropriately for a 
         public void push(int value)
         {

@@ -20,6 +20,6 @@ namespace College_App
         //returns number of items in stack 
         int size();
         //override toString to display the stack
-        String toString();
+        void toString();
     }
 }

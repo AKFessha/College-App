@@ -8,7 +8,7 @@ namespace College_App
 
 {
     //Data Structure
-    //Implemntaing the interface IStackADT
+    //Implementing the interface IStackADT
     //Awet Fessha 24/10/18
 
     // Integer Array List Data Structure

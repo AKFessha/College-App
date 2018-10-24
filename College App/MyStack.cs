@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace College_App
 {
-    //Implemntaing the interface IStackADT
+    //Implementing the interface IStackADT
     //Awet Fessha 24/10/18
     
 
     class MyStack : IStackADT
     {
+        IntArrayList list;
+        //Constructor
         public MyStack()
         {
             IntArrayList list = new IntArrayList();
@@ -19,37 +21,37 @@ namespace College_App
         //adds value to list appropriately for a 
         public void push(int value)
         {
-            throw new NotImplementedException();
+            list.addItem(value); 
         }
 
         //returns true if the stack is empty 
         public bool isEmpty()
         {
-            return true;
+            return list.isEmpty();
         }
 
         // returns full if no more space
         public bool isFull()
         {
-            return false;
+            return list.isFull();
         }
 
         //remove and return value from list 
         public int pop()
         {
-            throw new NotImplementedException();
+           return list.Remove();
         }
 
         //returns number of items in stack 
         public int size()
         {
-            return 3;
+            return list.size();
         }
 
         //override toString to display the stack
-        public string toString()
+        public void toString()
         {
-            return "Hello";
+            list.display();
         }
     }
 }

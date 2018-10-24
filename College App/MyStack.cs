@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace College_App
 {
-    //Implementing the interface IStackADT
+    // Implmenting the interface IStackADT
     //Awet Fessha 24/10/18
-    
+
 
     class MyStack : IStackADT
     {
@@ -16,7 +16,7 @@ namespace College_App
         //Constructor
         public MyStack()
         {
-            IntArrayList list = new IntArrayList();
+             list = new IntArrayList();
         }
         //adds value to list appropriately for a 
         public void push(int value)
@@ -25,13 +25,13 @@ namespace College_App
         }
 
         //returns true if the stack is empty 
-        public bool isEmpty()
+        public Boolean isEmpty()
         {
-            return list.isEmpty();
+           return list.isEmpty();
         }
 
         // returns full if no more space
-        public bool isFull()
+        public Boolean isFull()
         {
             return list.isFull();
         }

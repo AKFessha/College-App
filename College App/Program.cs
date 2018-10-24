@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace College_App
 {
-    //Implmenting the interface IStackADT
+    // Implmenting the interface IStackADT
     //Awet Fessha 24/10/18
     class Program
     {
@@ -20,6 +20,12 @@ namespace College_App
             {
                 aStack.push(i);
             }
+
+            Console.WriteLine("Number of values in the Stack " + aStack.size());
+            aStack.toString();
+
+            Console.WriteLine("Remove an item from the Stack " + aStack.pop());
+            aStack.toString();
 
             Console.ReadLine();
 

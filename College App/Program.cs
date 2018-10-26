@@ -13,7 +13,7 @@ namespace College_App
         static void Main(string[] args)
         {
             MyStack aStack = new MyStack();
-            Console.WriteLine("Testing Stack");
+            Console.WriteLine("Testing Stack1");
 
             Console.WriteLine("Testing isEmpty method" + aStack.isEmpty());
             for(int i=0; i<6; i++)
@@ -26,6 +26,21 @@ namespace College_App
 
             Console.WriteLine("Remove an item from the Stack " + aStack.pop());
             aStack.toString();
+
+            MyLinkedStack list = new MyLinkedStack();
+            Console.WriteLine("Testing Stack2");
+
+            Console.WriteLine("Testing isEmpty method" + list.isEmpty());
+            for(int i=0; i<6; i++)
+            {
+                list.push(i);
+            }
+            Console.WriteLine("Number of values in the Stack " + list.size());
+            list.toString();
+
+            Console.WriteLine("Remove an item from the Stack " + list.pop());
+            Console.WriteLine("value 5 should have been removed ");
+            list.toString();
 
             Console.ReadLine();
 

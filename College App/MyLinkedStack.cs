@@ -27,24 +27,20 @@ namespace College_App
         //returns true if the stack is empty 
         public Boolean isEmpty()
         {
-            return true;
+            return list.isEmpty();
         }
         //returns number of items in stack 
        public int size()
         {
-            return 6;
+            return list.size();
         }
 
         //override toString to display the stack
        public void toString()
         {
-            
+            list.display(); 
         }
 
-        public bool isFull()
-        {
-            return true;
-        }
 
         
     }

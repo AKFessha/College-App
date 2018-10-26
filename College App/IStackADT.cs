@@ -18,8 +18,6 @@ namespace College_App
         int pop();
         //returns true if the stack is empty 
         Boolean isEmpty();
-        // returns full if no more space
-        Boolean isFull();
         //returns number of items in stack 
         int size();
         //override toString to display the stack

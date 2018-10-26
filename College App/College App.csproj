@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="DataStructure.cs" />
     <Compile Include="IntArrayList.cs" />
-    <Compile Include="IntLinkedList.cs" />
     <Compile Include="IStackADT.cs" />
     <Compile Include="MyLinkedStack.cs" />
     <Compile Include="MyStack.cs" />

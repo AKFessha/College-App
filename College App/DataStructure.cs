@@ -158,7 +158,7 @@ namespace College_App
                 current_node = current_node.nextnode;
             }
         }
-    }// end IntLinkedList
+    }
 
 }
 

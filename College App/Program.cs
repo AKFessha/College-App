@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace College_App
 {
-    // Implmenting the interface IStackADT
+    //Implmenting the interface IStackADT
     //Awet Fessha 24/10/18
     class Program
     {
         static void Main(string[] args)
         {
-            MyStack aStack = new MyStack();
+           /* MyStack aStack = new MyStack();
             Console.WriteLine("Testing Stack1");
 
             Console.WriteLine("Testing isEmpty method" + aStack.isEmpty());
@@ -25,7 +25,7 @@ namespace College_App
             aStack.toString();
 
             Console.WriteLine("Remove an item from the Stack " + aStack.pop());
-            aStack.toString();
+            aStack.toString(); */
 
             MyLinkedStack list = new MyLinkedStack();
             Console.WriteLine("Testing Stack2");

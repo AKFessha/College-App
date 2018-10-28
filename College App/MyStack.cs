@@ -16,18 +16,18 @@ namespace College_App
         //Constructor
         public MyStack()
         {
-             list = new IntArrayList();
+            list = new IntArrayList();
         }
         //adds value to list appropriately for a 
         public void push(int value)
         {
-            list.addItem(value); 
+            list.addItem(value);
         }
 
         //returns true if the stack is empty 
         public Boolean isEmpty()
         {
-           return list.isEmpty();
+            return list.isEmpty();
         }
 
         // returns full if no more space
@@ -39,7 +39,7 @@ namespace College_App
         //remove and return value from list 
         public int pop()
         {
-           return list.Remove();
+            return list.Remove();
         }
 
         //returns number of items in stack 

@@ -15,7 +15,7 @@ namespace College_App
 
     class IntArrayList
     {
-       
+
         // number of values in the list
         private int count;
 

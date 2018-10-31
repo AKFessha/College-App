@@ -59,7 +59,15 @@ namespace College_App
 
             }
 
-            
+            Dictionary <string, string> books = new Dictionary <string, string>();
+            books.Add("Agata Christ", "The woman in the train");
+            books.Add("Shieve Kira", "You can win");
+            books.Add("Osho", "Try it my way");
+            books.Add("Meles beyene", "Tsibit bahgu");
+
+            foreach(KeyValuePair<string, string> i in books){
+                Console.WriteLine(i.Value + " written by " + i.Key);
+            }
 
             Console.ReadLine();
 

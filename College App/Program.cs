@@ -53,17 +53,25 @@ namespace College_App
             ht.Add(07654321543, "Ismaiel");
             ht.Add(999, "Emergency");
 
+            if (ht.ContainsKey(0141234574))
+            {
+                ht.Remove(0141234574);
+            }
+
             foreach (DictionaryEntry x in ht)
             {
                 Console.WriteLine(x.Value + " Phone number " + x.Key);
 
             }
 
+            //Generic version of hashtable
+
             Dictionary <string, string> books = new Dictionary <string, string>();
             books.Add("Agata Christ", "The woman in the train");
             books.Add("Shieve Kira", "You can win");
             books.Add("Osho", "Try it my way");
             books.Add("Meles beyene", "Tsibit bahgu");
+           
 
             foreach(KeyValuePair<string, string> i in books){
                 Console.WriteLine(i.Value + " written by " + i.Key);

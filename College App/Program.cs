@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace College_App
     {
         static void Main(string[] args)
         {
-           /* MyStack aStack = new MyStack();
+            MyStack aStack = new MyStack();
             Console.WriteLine("Testing Stack1");
 
             Console.WriteLine("Testing isEmpty method" + aStack.isEmpty());
@@ -25,7 +26,9 @@ namespace College_App
             aStack.toString();
 
             Console.WriteLine("Remove an item from the Stack " + aStack.pop());
-            aStack.toString(); */
+            aStack.toString(); 
+
+            //linkedStack
 
             MyLinkedStack list = new MyLinkedStack();
             Console.WriteLine("Testing Stack2");
@@ -41,6 +44,22 @@ namespace College_App
             Console.WriteLine("Remove an item from the Stack " + list.pop());
             Console.WriteLine("value 5 should have been removed ");
             list.toString();
+
+            //Hashtable
+            Hashtable ht = new Hashtable();
+            ht.Add(07454941123, "Awet");
+            ht.Add(07659452132, "Nahom");
+            ht.Add(0141234574, "Clyde college");
+            ht.Add(07654321543, "Ismaiel");
+            ht.Add(999, "Emergency");
+
+            foreach (DictionaryEntry x in ht)
+            {
+                Console.WriteLine(x.Value + " Phone number " + x.Key);
+
+            }
+
+            
 
             Console.ReadLine();
 

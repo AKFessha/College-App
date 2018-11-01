@@ -1,6 +1,6 @@
 # College App
 
-This is a console app built in attempt to learn C# and Object oriented programming.
+This is a console app built in attempt to learn C# and Object oriented programming features like inheritance, abstraction, interface, Polymorphism.
 
 ### Technology used
 
